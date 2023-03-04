@@ -1,10 +1,10 @@
-import React from "react";
-import { useState } from "react";
-import css from "../Card/Card.module.css";
-import logo from "/./Projects/TechicalTaskGoIT/src/Images/Logo.svg";
-import line from "/./Projects/TechicalTaskGoIT/src/Images/Line.png";
-import hansel from "/./Projects/TechicalTaskGoIT/src/Images/Hansel.png";
-import ellipse from "/./Projects/TechicalTaskGoIT/src/Images/Ellipse.png";
+import React from 'react';
+import { useState } from 'react';
+import css from '../Card/Card.module.css';
+import logo from '/./Projects/Task/src/Images/Logo.svg';
+import line from '/./Projects/Task/src/Images/Line.png';
+import hansel from '/./Projects/Task/src/Images/Hansel.png';
+import ellipse from '/./Projects/Task/src/Images/Ellipse.png';
 
 export default function Card() {
   const tweets = 777;
@@ -43,9 +43,9 @@ export default function Card() {
             type="button"
             className={css.btn}
             onClick={handleClick}
-            style={{ background: isFollowing ? "#5CD3A8" : "#EBD8FF" }}
+            style={{ background: isFollowing ? '#5CD3A8' : '#EBD8FF' }}
           >
-            {isFollowing ? "FOLLOWING" : "FOLLOW"}
+            {isFollowing ? 'FOLLOWING' : 'FOLLOW'}
           </button>
         </div>
       </div>
